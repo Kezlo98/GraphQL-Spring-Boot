@@ -1,0 +1,5 @@
+type Query {
+    firstQuery: String,
+    secondQuery: String,
+    fullname(firstName: String, lastName: String) : String,
+}
